@@ -1,4 +1,4 @@
-# Fetch headers
+# Webshot
 
 **Micro service to fetch a screenshot of a web page as a PNG.**
 
@@ -6,6 +6,8 @@ Demo: [`webshot.now.sh/?url=https://www.voorhoede.nl&w=480`](https://webshot.now
 
 
 ## Parameters
+
+The service can be configured with the following URL query parameters:
 
 Parameter | Description
 --- | ---
