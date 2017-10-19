@@ -1,0 +1,30 @@
+{
+  "name": "webshot-service",
+  "version": "1.0.0",
+  "description": "Micro service to fetch a screenshot of a web page.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "now -e NODE_ENV=production && now alias",
+    "dev": "micro-dev $npm_package_main",
+    "start": "micro $npm_package_main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "micro service",
+    "screenshot",
+    "image",
+    "page"
+  ],
+  "author": "Jasper Moelker <jasper@voorhoede.nl> (https://voorhoede.nl/)",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "9.0.0",
+    "puppeteer": "0.12.0",
+    "request": "2.83.0",
+    "request-promise": "4.2.2"
+  },
+  "devDependencies": {
+    "micro-dev": "1.2.3",
+    "now": "8.3.10"
+  }
+}
