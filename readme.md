@@ -9,11 +9,11 @@ Demo: [`webshot.now.sh/?url=https://www.voorhoede.nl&w=480`](https://webshot.now
 
 The service can be configured with the following URL query parameters:
 
-Parameter | Description
+Parameter | Description | Example
 --- | ---
-`url` (required) | URL of the web page to take a screenshot of.
-`width` or `w` (required) | Width to set the viewport to.
-`height` or `h` (optional) | Height to set the viewport to. If no height is provided a screenshot of the full page is created with the given viewport width.
+`url` (required) | URL of the web page to take a screenshot of. | `url=https://www.voorhoede.nl`
+`width` or `w` (required) | Width (in pixels) to set the viewport to. | `w=320`
+`height` or `h` (optional) | Height (in pixels) to set the viewport to. If no height is provided a screenshot of the full page is created with the given viewport width. | `h=320`
 
 
 ## Development

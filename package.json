@@ -2,9 +2,10 @@
   "name": "webshot-service",
   "version": "1.0.0",
   "description": "Micro service to fetch a screenshot of a web page.",
+  "homepage": "https://github.com/jbmoelker/webshot",
   "main": "index.js",
   "scripts": {
-    "deploy": "now -e NODE_ENV=production && now alias",
+    "deploy": "now --docker -e NODE_ENV=production && now alias",
     "dev": "micro-dev $npm_package_main",
     "start": "micro $npm_package_main",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +18,10 @@
   ],
   "author": "Jasper Moelker <jasper@voorhoede.nl> (https://voorhoede.nl/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbmoelker/webshot.git"
+  },
   "dependencies": {
     "micro": "9.0.0",
     "puppeteer": "0.12.0",
