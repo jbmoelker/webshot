@@ -27,7 +27,7 @@ module.exports = async (req, res) => {
     const fullPage = (height === undefined)
     const viewport = height ? { width, height } : { width, height: Math.round(width * 16/9) }
     
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']})
     let image
 
     try {
