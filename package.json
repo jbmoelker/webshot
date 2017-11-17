@@ -5,10 +5,13 @@
   "homepage": "https://github.com/jbmoelker/webshot",
   "main": "index.js",
   "scripts": {
+    "coverage": "nyc --reporter=html npm test",
+    "coverage-report": "nyc report --reporter=text-lcov | coveralls",
     "deploy": "now --docker -e NODE_ENV=production && now alias",
     "dev": "micro-dev $npm_package_main",
     "start": "micro $npm_package_main",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava test.js",
+    "watch": "npm run test -- --watch"
   },
   "keywords": [
     "micro service",
@@ -24,12 +27,16 @@
   },
   "dependencies": {
     "micro": "9.0.0",
-    "puppeteer": "0.12.0",
-    "request": "2.83.0",
-    "request-promise": "4.2.2"
+    "puppeteer": "0.12.0"
   },
   "devDependencies": {
+    "ava": "0.23.0",
     "micro-dev": "1.2.3",
-    "now": "8.3.10"
+    "now": "8.3.10",
+    "nyc": "11.3.0",
+    "request": "2.83.0",
+    "request-image-size": "2.1.0",
+    "request-promise": "4.2.2",
+    "test-listen": "1.0.2"
   }
 }
