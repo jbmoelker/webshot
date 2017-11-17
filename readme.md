@@ -1,4 +1,4 @@
-# Webshot
+# Webshot [![npm fetch-headers package](https://img.shields.io/npm/v/@jbmoelker/webshot-service.svg)](https://npmjs.org/package/@jbmoelker/webshot-service)
 
 **Micro service to fetch a screenshot of a web page as a PNG.**
 
@@ -18,9 +18,9 @@ Parameter | Description | Example
 
 ## Development
 
-This project requires [Node.js](http://nodejs.org/) (>= v8) and [npm](https://npmjs.org/).
+This project requires [Node.js](http://nodejs.org/) (>= v8) and [npm](https://npmjs.org/) (comes with Node).
 
-After installing dependencies using `npm install` the following scripts are available on all exercise branches:
+After installing dependencies using `npm install` the following scripts are available:
 
 `npm run ...` | Description
 ---|---

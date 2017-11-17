@@ -1,5 +1,5 @@
 {
-  "name": "webshot-service",
+  "name": "@jbmoelker/webshot-service",
   "version": "1.0.0",
   "description": "Micro service to fetch a screenshot of a web page.",
   "homepage": "https://github.com/jbmoelker/webshot",
