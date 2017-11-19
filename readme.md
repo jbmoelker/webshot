@@ -27,6 +27,8 @@ After installing dependencies using `npm install` the following scripts are avai
 `deploy` | Deploys project to now and aliases latest version to [`https://webshot.now.sh`](https://webshot.now.sh).
 `dev` | Starts micro service with hot reloading for development on [`http://localhost:3000`](http://localhost:3000).
 `start` | Starts micro service for production on [`http://localhost:3000`](http://localhost:3000).
+`test` | Run all tests in [`test.js`](test.js).
+`watch` | Run tests on file changes.
 
 
 ## License
