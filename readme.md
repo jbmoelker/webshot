@@ -1,4 +1,4 @@
-# Webshot [![Coverage Status](https://coveralls.io/repos/github/jbmoelker/webshot-service/badge.svg?branch=master)](https://coveralls.io/github/jbmoelker/webshot-service?branch=master) [![npm webshot-service package](https://img.shields.io/npm/v/@jbmoelker/webshot-service.svg)](https://npmjs.org/package/@jbmoelker/webshot-service)
+# Webshot [![Build Status](https://travis-ci.org/jbmoelker/webshot-service.svg?branch=master)](https://travis-ci.org/jbmoelker/webshot-service) [![Coverage Status](https://coveralls.io/repos/github/jbmoelker/webshot-service/badge.svg?branch=master)](https://coveralls.io/github/jbmoelker/webshot-service?branch=master) [![npm webshot-service package](https://img.shields.io/npm/v/@jbmoelker/webshot-service.svg)](https://npmjs.org/package/@jbmoelker/webshot-service)
 
 **Micro service to fetch a screenshot of a web page as a PNG.**
 
